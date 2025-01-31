@@ -189,7 +189,7 @@ If both numbers are int, Java does integer division. At least one must be double
 9️⃣ Practice Questions
 
 Test your understanding with these questions:
-	1.	What is the difference between int and double in Java?
-	2.	Why does 5 / 2 return 2 instead of 2.5 in Java?
-	3.	What will be the output of System.out.println(10 % 4);?
-	4.	How can you check if a number is even or odd using Java?
+1.	What is the difference between int and double in Java?
+2. Why does 5 / 2 return 2 instead of 2.5 in Java?
+3.	What will be the output of System.out.println(10 % 4);?
+4.	How can you check if a number is even or odd using Java?
