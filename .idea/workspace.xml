@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="uploading Main.java, etc.">
-      <change afterPath="$PROJECT_DIR$/textbook/ch1/lecture3.md" afterDir="false" />
+    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture3 readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textbook/ch1/lecture3.md" beforeDir="false" afterPath="$PROJECT_DIR$/textbook/ch1/lecture3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1738360611101" duration="71000" />
       <workItem from="1738360701355" duration="191000" />
       <workItem from="1738361010765" duration="278000" />
-      <workItem from="1738361304596" duration="1196000" />
+      <workItem from="1738361304596" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="added ch0 and readme">
       <option name="closed" value="true" />
@@ -138,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738361610313</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added lecture3 readme">
+      <option name="closed" value="true" />
+      <created>1738362615562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738362615562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +157,7 @@
     <MESSAGE value="added ch0 and readme" />
     <MESSAGE value="upload lecture 2" />
     <MESSAGE value="uploading Main.java, etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="uploading Main.java, etc." />
+    <MESSAGE value="added lecture3 readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lecture3 readme" />
   </component>
 </project>

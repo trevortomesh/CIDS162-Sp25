@@ -10,8 +10,11 @@ Welcome to the repository for **CIDS 162: Intermediate Programming**! This repos
 This repository includes all the course materials organized into chapters and lectures. You can navigate directly to specific topics below:
 
 ### **Introduction**
+#### **Chapter 0: Intro to CIDS 162**
 - [Lecture 1: Course Introduction](textbook/ch0/lecture1.md)
-
+#### **Chapter 1: From Python to Java**
+- [Lecture 2: Introduction to Programming with Java](textbook/ch1/lecture2.md)
+- [Lecture 3: Java Data Types and Operations](textbook/ch1/lecture3.md)
 ---
 
 ## **📂 Repository Contents**

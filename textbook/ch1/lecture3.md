@@ -1,5 +1,3 @@
-Here’s the markdown version of the lecture, formatted as a structured section for the CIDS 162 Living Textbook:
-
 # **Lecture 3: Java Data Types and Operations**
 
 📅 **Date:** January 31, 2025  
