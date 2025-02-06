@@ -15,6 +15,8 @@ This repository includes all the course materials organized into chapters and le
 #### **Chapter 1: From Python to Java**
 - [Lecture 2: Introduction to Programming with Java](textbook/ch1/lecture2.md)
 - [Lecture 3: Java Data Types and Operations](textbook/ch1/lecture3.md)
+- [Lecture 4: Understanding Java and Arithmetic Operations](textbook/ch1/lecture4.md)
+- [Lecture 5: User Input and Data Types in Java](textbook/ch1/lecture5.md)
 ---
 
 ## **📂 Repository Contents**

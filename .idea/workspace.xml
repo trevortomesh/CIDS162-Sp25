@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="fixed formatting issue with practice questions">
+    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -117,6 +118,8 @@
       <workItem from="1738363653062" duration="897000" />
       <workItem from="1738595876216" duration="38000" />
       <workItem from="1738609476193" duration="3036000" />
+      <workItem from="1738620927639" duration="176000" />
+      <workItem from="1738781993190" duration="5685000" />
     </task>
     <task id="LOCAL-00001" summary="added ch0 and readme">
       <option name="closed" value="true" />
@@ -166,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738362943398</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added lecture 4">
+      <option name="closed" value="true" />
+      <created>1738621097922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738621097922</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +190,7 @@
     <MESSAGE value="added lecture3 readme" />
     <MESSAGE value="updated readme" />
     <MESSAGE value="fixed formatting issue with practice questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed formatting issue with practice questions" />
+    <MESSAGE value="added lecture 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lecture 4" />
   </component>
 </project>

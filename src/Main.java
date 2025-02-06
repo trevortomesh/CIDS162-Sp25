@@ -38,7 +38,10 @@ public class Main {
         System.out.println(trouble);
     */
 
+        // farenheit = input("Enter a degree in Fahrenheit: ")
+
         // create a scanner to take information from the keyboard :-)
+        /*
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a degree in Fahrenheit: ");
@@ -48,6 +51,25 @@ public class Main {
         double celsius = (fahrenheit - 32) * 5 / 9;
         System.out.println("Fahrenheit: " + fahrenheit + " is " +
                 celsius + " in Celsius");
+*/
+
+/*        int x = 5;
+        x++;  //x = x + 1;
+        for(int x = 1; x < 10; x++) {
+            System.out.println(x);
+        }
+
+        int i = 1;
+        int j = i--;
+        System.out.println("j is now " + j);
+        System.out.println("i is now " + i);*/
+
+        int a = 5;
+        double x = a; //implicit casting
+        System.out.println(x);
+        int y;
+        y = (int) x; //explicit casting
+        System.out.println(y);
 
 
     }
