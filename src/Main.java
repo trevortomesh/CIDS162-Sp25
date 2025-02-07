@@ -64,12 +64,59 @@ public class Main {
         System.out.println("j is now " + j);
         System.out.println("i is now " + i);*/
 
-        int a = 5;
-        double x = a; //implicit casting
-        System.out.println(x);
-        int y;
-        y = (int) x; //explicit casting
-        System.out.println(y);
+
+
+//        int a = 5;
+//        double x = a; //widening implicit casting
+//        System.out.println(x);
+//        int y;
+//        y = (int) x; //narrowing explicit casting
+//        System.out.println(y);
+//
+//        int i = 1;
+//        byte b = (byte) i;
+//        System.out.println(b);
+
+//        int a = 50;
+//        int b = 30;
+//        //boolean compare = (a > b);
+//        //System.out.println(compare);
+//
+//        if(a < b){
+//            System.out.println(a);
+//        }else{
+//            System.out.println(b);
+//        }
+
+//        int number1 = (int)(System.currentTimeMillis() % 10);
+//        int number2 = (int)(System.currentTimeMillis() / 10 % 10);
+//
+//        //create a scanner
+//
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("What is " + number1 + " + " + number2 + "?");
+//        int answer = input.nextInt();
+//
+//        System.out.println(
+//                number1 + " + " + number2 + " = " + answer + " is " +
+//                        (answer == number1 + number2));
+
+        int lowtemp = 55;
+        int hightemp = 80;
+        int temp = 60;
+
+        if(temp >= hightemp){
+            System.out.println("Too hot!");
+        }else{
+            System.out.println("Not too hot!");
+        }
+
+        if(temp <= lowtemp){
+            System.out.println("Too cold!");
+        }else{
+            System.out.println("Not too cold!");
+        }
+
 
 
     }

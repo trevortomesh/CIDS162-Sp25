@@ -18,6 +18,9 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 4: Understanding Java and Arithmetic Operations](textbook/ch1/lecture4.md)
 - [Lecture 5: User Input and Data Types in Java](textbook/ch1/lecture5.md)
 ---
+### **Chapter 2: Selections and Loops**
+- [Lecture 6: Casting, booleans and Relational Operatons](textbook/ch2/lecture6.md)
+
 
 ## **📂 Repository Contents**
 This repository is organized into the following sections:
