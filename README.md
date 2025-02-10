@@ -17,10 +17,11 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 3: Java Data Types and Operations](textbook/ch1/lecture3.md)
 - [Lecture 4: Understanding Java and Arithmetic Operations](textbook/ch1/lecture4.md)
 - [Lecture 5: User Input and Data Types in Java](textbook/ch1/lecture5.md)
+- [Lecture 6: Casting, booleans and Relational Operatons](textbook/ch1/lecture6.md)
+
 ---
 ### **Chapter 2: Selections and Loops**
-- [Lecture 6: Casting, booleans and Relational Operatons](textbook/ch2/lecture6.md)
-
+- [Lecture 7: Conditional Logic: If and Else Statements](textbook/ch2/lecture7.md)
 
 ## **📂 Repository Contents**
 This repository is organized into the following sections:

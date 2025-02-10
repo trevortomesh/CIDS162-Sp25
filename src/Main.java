@@ -101,20 +101,43 @@ public class Main {
 //                number1 + " + " + number2 + " = " + answer + " is " +
 //                        (answer == number1 + number2));
 
-        int lowtemp = 55;
-        int hightemp = 80;
-        int temp = 60;
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Give me a temp in F");
+//        int lowtemp = 55; // too cold to go on a pic-nic
+//        int hightemp = 80; // too hot to go on a pic-nic
+//        int temp = input.nextInt(); // actual temp
+//        //System.out.println("temp is " + temp);
+//        if(temp >= hightemp){
+//            System.out.println("Too hot!");
+//        }else{
+//            System.out.println("Not too hot!");
+//        }
+//
+//        if(temp <= lowtemp){
+//            System.out.println("Too cold!");
+//        }else{
+//            System.out.println("Not too cold!");
+//        }
+//
+//        if(temp > lowtemp && temp < hightemp){
+//            System.out.println("It's pic-nic time!");
+//        }
+//        else{
+//            System.out.println("No pic-nic for you!");
+//        }
 
-        if(temp >= hightemp){
-            System.out.println("Too hot!");
-        }else{
-            System.out.println("Not too hot!");
-        }
+        boolean gate1_open = false;
+        boolean gate2_open = true;
+        boolean gate3_open = true;
 
-        if(temp <= lowtemp){
-            System.out.println("Too cold!");
-        }else{
-            System.out.println("Not too cold!");
+        if(gate1_open) {
+            System.out.println("All the subjects in lvl 1 are dead!!!");
+            if(gate2_open) {
+                System.out.println("All the subjects in lvl 2 are dead!!!");
+                if(gate3_open) {
+                    System.out.println("The king is dead!!!");
+                }
+            }
         }
 
 
