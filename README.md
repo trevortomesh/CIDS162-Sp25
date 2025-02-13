@@ -22,7 +22,7 @@ This repository includes all the course materials organized into chapters and le
 ---
 ### **Chapter 2: Selections and Loops**
 - [Lecture 7: Conditional Logic: If and Else Statements](textbook/ch2/lecture7.md)
-
+- [Lecture 8: More Conditional Logic and Randomness](/textbook/ch2/lecture8.md)
 ## **📂 Repository Contents**
 This repository is organized into the following sections:
 ```

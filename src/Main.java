@@ -37,7 +37,6 @@ public class Main {
                 9*((4/x) + ((9+x)/y));
         System.out.println(trouble);
     */
-
         // farenheit = input("Enter a degree in Fahrenheit: ")
 
         // create a scanner to take information from the keyboard :-)
@@ -52,7 +51,6 @@ public class Main {
         System.out.println("Fahrenheit: " + fahrenheit + " is " +
                 celsius + " in Celsius");
 */
-
 /*        int x = 5;
         x++;  //x = x + 1;
         for(int x = 1; x < 10; x++) {
@@ -63,8 +61,6 @@ public class Main {
         int j = i--;
         System.out.println("j is now " + j);
         System.out.println("i is now " + i);*/
-
-
 
 //        int a = 5;
 //        double x = a; //widening implicit casting
@@ -125,21 +121,64 @@ public class Main {
 //        else{
 //            System.out.println("No pic-nic for you!");
 //        }
+//
+//        boolean gate1_open = true;
+//        boolean gate2_open = true;
+//        boolean gate3_open = true;
+//
+//        if(gate1_open) {
+//            System.out.println("All the subjects in lvl 1 are dead!!!");
+//            if(gate2_open) {
+//                System.out.println("All the subjects in lvl 2 are dead!!!");
+//                if(gate3_open) {
+//                    System.out.println("The king is dead!!!");
+//                }
+//            }
+//        }
 
-        boolean gate1_open = false;
-        boolean gate2_open = true;
-        boolean gate3_open = true;
+//    System.out.println("Enter a numeric grade: ");
+//    Scanner input = new Scanner(System.in);
+//    int grade = input.nextInt();
 
-        if(gate1_open) {
-            System.out.println("All the subjects in lvl 1 are dead!!!");
-            if(gate2_open) {
-                System.out.println("All the subjects in lvl 2 are dead!!!");
-                if(gate3_open) {
-                    System.out.println("The king is dead!!!");
-                }
-            }
-        }
+   // System.out.println("You entered " + grade);
 
+//    if(grade >= 90 && grade <= 100){
+//        System.out.println("A");
+//    }
+//    if(grade < 90 && grade >=80){
+//        System.out.println("B");
+//    }
+//    if(grade < 80 && grade >= 70){
+//        System.out.println("C");
+//    }
+//    if(grade < 70 && grade >= 60){
+//        System.out.println("D");
+//    }
+//    if(grade < 60){
+//        System.out.println("F");
+//    }
+//    else{
+//        System.out.println("That's not a valid number grade!");
+//    }
+
+//        if(grade >= 90){
+//            System.out.println("A");
+//        }
+//        else if(grade >= 80){
+//            System.out.println("B");
+//        }
+//        else if(grade >= 70){
+//            System.out.println("C");
+//        }
+//        else if(grade >=60){
+//            System.out.println("D");
+//        }
+//        else{
+//            System.out.println("F");
+//        }
+
+        int number1 = (int) (10* Math.random());
+        System.out.println(number1);
 
 
     }
