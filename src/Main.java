@@ -177,9 +177,40 @@ public class Main {
 //            System.out.println("F");
 //        }
 
-        int number1 = (int) (10* Math.random());
-        System.out.println(number1);
+        // 1. Generate two random single-digit integers
+//        int number1 = (int) (Math.random() * 10);
+//        int number2 = (int) (Math.random() * 10);
+//
+//        System.out.println(number1 + " " + number2);
+//
+//        // 2. if number1 < number, swap number1 with number2
+//        if(number1 < number2){
+//            int temp = number1;
+//            number1 = number2;
+//            number2 = temp;
+//        }
+//
+//        // 3. Prompt the student to answer "What is number1 - number2?"
+//        System.out.print("What is " + number1 + " - " + number2+"?");
+//        Scanner input = new Scanner(System.in);
+//        int answer = input.nextInt();
+//
+//        // 4. Grade the answer and display the result
+//
+//        if(answer == number1 - number2){
+//            System.out.println("You are correct! Great job, you can compete with TI-82!");
+//        }else{
+//            System.out.print("You are wrong. The answer is ");
+//            System.out.print(number1 - number2);
+//            System.out.println("! Your parents don't love you anymore!");
+//        }
 
+        if(false ^ true){
+            System.out.println("TADA!");
+
+        }else{
+            System.out.println("Womp womp...");
+        }
 
     }
 }
