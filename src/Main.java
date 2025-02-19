@@ -36,7 +36,7 @@ public class Main {
         double trouble = ((3+4*x)/5) - ((10 * (y-5) * (a + b + c )) / x) +
                 9*((4/x) + ((9+x)/y));
         System.out.println(trouble);
-    */
+
         // farenheit = input("Enter a degree in Fahrenheit: ")
 
         // create a scanner to take information from the keyboard :-)
@@ -205,12 +205,68 @@ public class Main {
 //            System.out.println("! Your parents don't love you anymore!");
 //        }
 
-        if(false ^ true){
-            System.out.println("TADA!");
+//        if((false ^ false) && (true) || true){
+//            System.out.println("TADA!");
+//
+//        }else{
+//            System.out.println("Womp womp...");
+//        }
+//
 
-        }else{
-            System.out.println("Womp womp...");
-        }
+//***************************************************************//
+
+    /*
+        - check if a number is
+        a) divisible by 2 and 3  &&
+        b) divisible by 2 or 3   ||
+        c) divisible by 2 or 3 but not both  ^
+     */
+
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter an integer: ");
+//        int number = input.nextInt();
+//
+//        // number % 2 == 0 is even
+//
+//        if(number % 2 == 0 && number % 3 == 0){
+//            System.out.println(number + " is divisible by 2 and 3.");
+//        }
+//
+//        if(number % 2 == 0 || number % 3 == 0){
+//            System.out.println(number + " is divisible by 2 OR 3.");
+//        }
+//
+//        if(number % 2 == 0 ^ number % 3 == 0){
+//            System.out.println(number + " is divisible by 2 OR 3 not BOTH.");
+//        }
+//
+//        if(number == 13 || number == 23){
+//            System.out.println("Those are stupid numbers... you should feel bad!");
+//        }
+
+    int day = 7;
+
+    switch(day){
+        case 0: System.out.println("It's Sunday!");
+        break;
+        case 1: System.out.println("It's Monday!");
+        break;
+        case 2: System.out.println("It's Tuesday!");
+        break;
+        case 3: System.out.println("It's Wednesday!");
+        break;
+        case 4: System.out.println("It's Thursday!");
+        break;
+        case 5: System.out.println("It's Friday!");
+        break;
+        case 6: System.out.println("It's Saturday!");
+        break;
+        default: System.out.println("Enter an int between 0 and 6!");
+
+    }
+
+
+
 
     }
 }
