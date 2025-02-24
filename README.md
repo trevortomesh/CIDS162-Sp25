@@ -26,6 +26,13 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 9: Random Number Generation and Boolean Operators](/textbook/ch2/lecture9.md)
 - [Lecture 10: Assignment 1](/textbook/ch2/lecture10.md)
 - [Lecture 11: Logical Operators and Control Structures](/textbook/ch2/lecture11.md)
+
+---
+### **Appendix**
+- [Lecture 12: Code Readability & Documentation](/textbook/appendix/lecture12.md)
+
+---
+
 ## **📂 Repository Contents**
 This repository is organized into the following sections:
 ```

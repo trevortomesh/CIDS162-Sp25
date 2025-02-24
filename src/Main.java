@@ -1,3 +1,11 @@
+/**
+ * Main program for my CIDS 162 Course
+ * @author Trevor M. Tomesh
+ * @version 1.0
+ * @since 2025-02-24
+ *
+ */
+
 import java.util.Scanner;
 
 public class Main {
@@ -244,29 +252,62 @@ public class Main {
 //            System.out.println("Those are stupid numbers... you should feel bad!");
 //        }
 
-    int day = 7;
+    // Commenting code is leaving notes for yourself / future coders
 
-    switch(day){
-        case 0: System.out.println("It's Sunday!");
-        break;
-        case 1: System.out.println("It's Monday!");
-        break;
-        case 2: System.out.println("It's Tuesday!");
-        break;
-        case 3: System.out.println("It's Wednesday!");
-        break;
-        case 4: System.out.println("It's Thursday!");
-        break;
-        case 5: System.out.println("It's Friday!");
-        break;
-        case 6: System.out.println("It's Saturday!");
-        break;
-        default: System.out.println("Enter an int between 0 and 6!");
+
+//    int day = 7;
+//
+//    /**
+//     *  The following switch statement determines the day of the
+//     *  week given a specific integer number.
+//     */
+//    switch(day){
+//        case 0: System.out.println("It's Sunday!");
+//        break;
+//        case 1: System.out.println("It's Monday!");
+//        break;
+//        case 2: System.out.println("It's Tuesday!");
+//        break;
+//        case 3: System.out.println("It's Wednesday!");
+//        break;
+//        case 4: System.out.println("It's Thursday!");
+//        break;
+//        case 5: System.out.println("It's Friday!");
+//        break;
+//        case 6: System.out.println("It's Saturday!");
+//        break;
+//        default: System.out.println("Enter an int between 0 and 6!");
+//
+//    }
+//
+//        // single-line comments
+//
+//        /*
+//         * Multiple lines of comments
+//         * This is for multiple lines
+//         * You can do this for long explanations
+//        */
+//
+//        /**
+//         * This is a javadocs comment!
+//         * This is used for commenting methods / classes!
+//         */
+
+
+//************************************************************
+// Chinese Zodiac Computer
+
+        System.out.println(2004 % 12);
 
     }
 
-
-
-
+    /**
+     * Adds two integers.
+     * @param a the first integer
+     * @param b the second integer
+     * @return the sum of a and b
+     */
+    public int add(int a, int b){
+        return a+b;
     }
 }
