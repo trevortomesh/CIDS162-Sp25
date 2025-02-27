@@ -296,8 +296,86 @@ public class Main {
 
 //************************************************************
 // Chinese Zodiac Computer
+/* 0 = Monkey
+*  1 = Rooster
+*  2 = Dog
+*  3 = Pig
+*  4 = Rat
+*  5 = Ox
+*  6 = Tiger
+*  7 = Rabbit
+*  8 = Dragon
+*  9 = Snake
+*  10 = Horse
+*  11 = Goat
+*/
 
-        System.out.println(2004 % 12);
+//        // 1) Ask user for their birth year
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter your birth year: ");
+//        int year = input.nextInt();
+//        System.out.println("You entered: " + year);
+
+        // 2) - Take the modulus of birth year
+        //    - Compare to the list of zodiac symbols
+        // 3) Output the zodiac sign to the user
+//
+//        switch(year % 12) {
+//            case 0: System.out.println("You're a monkey!"); break;
+//            case 1: System.out.println("You're a rooster!"); break;
+//            case 2: System.out.println("You're a dog!"); break;
+//            case 3: System.out.println("You're a pig!"); break;
+//            case 4: System.out.println("You're a rat!"); break;
+//            case 5: System.out.println("You're a ox!"); break;
+//            case 6: System.out.println("You're a tiger!"); break;
+//            case 7: System.out.println("You're a rabbit!"); break;
+//            case 8: System.out.println("You're a dragon!"); break;
+//            case 9: System.out.println("You're a snake!"); break;
+//            case 10: System.out.println("You're a horse!"); break;
+//            case 11: System.out.println("You're a goat!"); break;
+//            default: System.out.println("Follow directions!");
+//        }
+
+//        if (year % 12 == 0) {
+//            System.out.println("You're a monkey!");
+//        } else if (year % 12 == 1) {
+//            System.out.println("You're a rooster!");
+//        } else if (year % 12 == 2) {
+//            System.out.println("You're a dog!");
+//        } else if (year % 12 == 3) {
+//            System.out.println("You're a pig!");
+//        } else if (year % 12 == 4) {
+//            System.out.println("You're a rat!");
+//        } else if (year % 12 == 5) {
+//            System.out.println("You're an ox!");
+//        } else if (year % 12 == 6) {
+//            System.out.println("You're a tiger!");
+//        } else if (year % 12 == 7) {
+//            System.out.println("You're a rabbit!");
+//        } else if (year % 12 == 8) {
+//            System.out.println("You're a dragon!");
+//        } else if (year % 12 == 9) {
+//            System.out.println("You're a snake!");
+//        } else if (year % 12 == 10) {
+//            System.out.println("You're a horse!");
+//        } else if (year % 12 == 11) {
+//            System.out.println("You're a goat!");
+//        } else {
+//            System.out.println("Follow directions!");
+//        }
+
+//************ INTRODUCING LOOPS! *******************************************//
+        int bottlesOfBeer = 100_000;
+        while(bottlesOfBeer > 0){
+            System.out.println(bottlesOfBeer + " bottle(s) of beer on the wall!");
+            System.out.println(bottlesOfBeer + " bottle(s) of beer!");
+            System.out.println("Take one down! Pass it around!");
+            bottlesOfBeer--;
+            System.out.println(bottlesOfBeer + " bottle(s) of beer on the wall!");
+
+        }
+
+
 
     }
 

@@ -20,16 +20,19 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 6: Casting, booleans and Relational Operatons](textbook/ch1/lecture6.md)
 
 ---
-### **Chapter 2: Selections and Loops**
+### **Chapter 2: Selections**
 - [Lecture 7: Conditional Logic: If and Else Statements](textbook/ch2/lecture7.md)
-- [Lecture 8: More Conditional Logic and Randomness](/textbook/ch2/lecture8.md)
-- [Lecture 9: Random Number Generation and Boolean Operators](/textbook/ch2/lecture9.md)
-- [Lecture 10: Assignment 1](/textbook/ch2/lecture10.md)
-- [Lecture 11: Logical Operators and Control Structures](/textbook/ch2/lecture11.md)
-
+- [Lecture 8: More Conditional Logic and Randomness](textbook/ch2/lecture8.md)
+- [Lecture 9: Random Number Generation and Boolean Operators](textbook/ch2/lecture9.md)
+- [Lecture 10: Assignment 1](textbook/ch2/lecture10.md)
+- [Lecture 11: Logical Operators and Control Structures](textbook/ch2/lecture11.md)
+- [Lecture 13 (Pt. 1): Switch Statements -- The Chinese Zodiac](textbook/ch2/lecture13-pt1.md)
+---
+### **Chapter 3: Loops**
+- [Lecture 13 (Pt.2): While Loops](textbook/ch3/lecture13-pt2.md)
 ---
 ### **Appendix**
-- [Lecture 12: Code Readability & Documentation](/textbook/appendix/lecture12.md)
+- [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
 
 ---
 
