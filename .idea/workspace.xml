@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 12">
+    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -64,11 +64,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/textbook/ch2" />
+      <recent name="$PROJECT_DIR$/textbook/ch3" />
       <recent name="$PROJECT_DIR$/textbook/appendix" />
       <recent name="$PROJECT_DIR$/textbook/ch1" />
-      <recent name="$PROJECT_DIR$/textbook/ch2" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -136,6 +136,8 @@
       <workItem from="1739991582888" duration="4968000" />
       <workItem from="1740423972643" duration="3701000" />
       <workItem from="1740596692526" duration="5964000" />
+      <workItem from="1740629685625" duration="584000" />
+      <workItem from="1740769524602" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="added ch0 and readme">
       <option name="closed" value="true" />
@@ -257,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740434464812</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added lecture 13">
+      <option name="closed" value="true" />
+      <created>1740630257535</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740630257535</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +289,7 @@
     <MESSAGE value="added lecture 10" />
     <MESSAGE value="added lecture 11" />
     <MESSAGE value="added lecture 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lecture 12" />
+    <MESSAGE value="added lecture 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lecture 13" />
   </component>
 </project>

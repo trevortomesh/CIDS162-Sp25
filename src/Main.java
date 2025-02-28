@@ -148,7 +148,7 @@ public class Main {
 //    Scanner input = new Scanner(System.in);
 //    int grade = input.nextInt();
 
-   // System.out.println("You entered " + grade);
+        // System.out.println("You entered " + grade);
 
 //    if(grade >= 90 && grade <= 100){
 //        System.out.println("A");
@@ -252,7 +252,7 @@ public class Main {
 //            System.out.println("Those are stupid numbers... you should feel bad!");
 //        }
 
-    // Commenting code is leaving notes for yourself / future coders
+        // Commenting code is leaving notes for yourself / future coders
 
 
 //    int day = 7;
@@ -296,19 +296,19 @@ public class Main {
 
 //************************************************************
 // Chinese Zodiac Computer
-/* 0 = Monkey
-*  1 = Rooster
-*  2 = Dog
-*  3 = Pig
-*  4 = Rat
-*  5 = Ox
-*  6 = Tiger
-*  7 = Rabbit
-*  8 = Dragon
-*  9 = Snake
-*  10 = Horse
-*  11 = Goat
-*/
+        /* 0 = Monkey
+         *  1 = Rooster
+         *  2 = Dog
+         *  3 = Pig
+         *  4 = Rat
+         *  5 = Ox
+         *  6 = Tiger
+         *  7 = Rabbit
+         *  8 = Dragon
+         *  9 = Snake
+         *  10 = Horse
+         *  11 = Goat
+         */
 
 //        // 1) Ask user for their birth year
 //        Scanner input = new Scanner(System.in);
@@ -365,20 +365,72 @@ public class Main {
 //        }
 
 //************ INTRODUCING LOOPS! *******************************************//
-        int bottlesOfBeer = 100_000;
-        while(bottlesOfBeer > 0){
-            System.out.println(bottlesOfBeer + " bottle(s) of beer on the wall!");
-            System.out.println(bottlesOfBeer + " bottle(s) of beer!");
-            System.out.println("Take one down! Pass it around!");
-            bottlesOfBeer--;
-            System.out.println(bottlesOfBeer + " bottle(s) of beer on the wall!");
+//        int bottlesOfBeer = 100;
+//        while(bottlesOfBeer > 0){
+//            System.out.println(bottlesOfBeer + " bottle(s) of beer on the wall!");
+//            System.out.println(bottlesOfBeer + " bottle(s) of beer!");
+//            System.out.println("Take one down! Pass it around!");
+//            bottlesOfBeer--;
+//            System.out.println(bottlesOfBeer + " bottle(s) of beer on the wall!");
+//
+//        }
 
+//     while(true){
+//         System.out.println("oops!");
+//     }
+
+//        int number = (int) (Math.random() * 100);
+//        //System.out.println(number);
+//        boolean running = true;
+//        while (running) {
+//            System.out.println("Guess an integer between 1 and 100!");
+//            Scanner input = new Scanner(System.in);
+//
+//            int guess = input.nextInt();
+//
+//            if (guess == number) {
+//                System.out.println("You win or something!");
+//                running = false;
+//
+//            } else if (guess > number) {
+//                System.out.println("Too high!");
+//            } else {
+//                System.out.println("Too low!");
+//            }
+//
+//
+//        }
+//
+// *********************ADDING MACHINE ********************//
+//
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter an integer (the input ends if it is 0): ");
+//        int data = input.nextInt();
+//
+//        int sum = 0;
+//        while(data != 0){
+//            sum += data;
+//            //read the next data
+//            System.out.println("Enter an integer (the input ends if it is 0): ");
+//            data = input.nextInt();
+//        }
+//        System.out.println("The sum is " + sum);
+//    }
+
+
+        int count = 0;
+        while (count < 100) {
+            System.out.println(count);
+            count++;
         }
 
+        count = 0;
 
-
+        do{
+            System.out.println(count);
+            count++;
+        }while(count < 100);
     }
-
     /**
      * Adds two integers.
      * @param a the first integer
