@@ -31,6 +31,7 @@ This repository includes all the course materials organized into chapters and le
 ### **Chapter 3: Loops**
 - [Lecture 13 (Pt.2): While Loops](textbook/ch3/lecture13-pt2.md)
 - [Lecture 14: Loops and the Guessing Game](textbook/ch3/lecture14.md)
+- [Lecture 15: For loops and nested for loops](textbook/ch3/lecture15.md)
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
