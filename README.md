@@ -34,6 +34,9 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 15: For loops and nested for loops](textbook/ch3/lecture15.md)
 - [Lecture 16: Loops and Control Flow in Java](textbook/ch3/lecture16.md)
 ---
+### **Chapter 4: Strings and Arrays**
+- [Lecture 17: Strings](textbook/ch4/lecture17.md)
+---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
 

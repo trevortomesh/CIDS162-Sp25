@@ -5,6 +5,7 @@
  * @since 2025-02-24
  *
  */
+import java.util.Locale;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -66,18 +67,18 @@ public class Main {
 //            System.out.println(i);
 //        }
 
-//// Palindrome Checker
+////// Palindrome Checker
 //Scanner input = new Scanner(System.in);
 //
-//// 1) Prompt user to enter a string
+////// 1) Prompt user to enter a string
 //System.out.print("Enter a string: ");
 //String s = input.nextLine();
 //
-//// 2) Get lowest and highest characters of the string
+////// 2) Get lowest and highest characters of the string
 //int low = 0;
 //int high = s.length() - 1;
 //
-//// assume we have a palindrome
+////// assume we have a palindrome
 //boolean isPalindrome = true;
 //
 //while(low < high){
@@ -95,10 +96,46 @@ public class Main {
 //        System.out.println(s + " is NOT a palindrome!");
 //    }
 
-        String s = "tacocat";
-        System.out.println(s.charAt(3));
-        char a = s.charAt(3);
-        System.out.println("s.charAt(3) is " + a);
+//        String s = "tacocat";
+//        System.out.println(s.charAt(3));
+//        char a = s.charAt(3);
+//        System.out.println("s.charAt(3) is " + a);
+//        String b = "Hello";
+//        String c = " World!";
+//        String d = b + c + " This is neato!";
+//        String x = "             129 TACOS";
+//        System.out.println(x.trim());
+
+//        String thing = "My preciousssssss!";
+//        System.out.println(thing.startsWith("My"));
+//        System.out.println("One Ring to Rule Them All!".endsWith("Monkey!"));
+//        String password = "Mellon";
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("What is the password?");
+//        String userPassword = input.nextLine();
+//        System.out.println("You entered: " + userPassword);
+//
+//        userPassword = userPassword.toLowerCase();
+//        if(userPassword.contains(password.toLowerCase())){
+//            System.out.println("You may enter!");
+//        }else{
+//            System.out.println("YOUUU SHALL NOT PAAAASSSSSS!");
+//        }
+
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the first city: ");
+        String city1 = input.nextLine();
+        System.out.print("Enter the second city: ");
+        String city2 = input.nextLine();
+
+        if(city1.compareTo(city2) < 0) {
+            System.out.println("The cities in alphabetical order are " +
+                    city1 + " " + city2);
+        }else {
+            System.out.println("The cities in alphabetical order are " +
+                    city2 + " " + city1);
+        }
+
 
     }
 }
