@@ -36,6 +36,7 @@ This repository includes all the course materials organized into chapters and le
 ---
 ### **Chapter 4: Strings and Arrays**
 - [Lecture 17: Strings](textbook/ch4/lecture17.md)
+- [Lecture 18: Strings and Arrays](textbook/ch4/lecture18.md)
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)

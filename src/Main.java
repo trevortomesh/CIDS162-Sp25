@@ -122,20 +122,48 @@ public class Main {
 //            System.out.println("YOUUU SHALL NOT PAAAASSSSSS!");
 //        }
 
-        Scanner input = new Scanner(System.in);
-        System.out.print("Enter the first city: ");
-        String city1 = input.nextLine();
-        System.out.print("Enter the second city: ");
-        String city2 = input.nextLine();
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Enter the first city: ");
+//        String city1 = input.nextLine();
+//        System.out.print("Enter the second city: ");
+//        String city2 = input.nextLine();
+//
+//        if(city1.compareTo(city2) < 0) {
+//            System.out.println("The cities in alphabetical order are " +
+//                    city1 + " " + city2);
+//        }else {
+//            System.out.println("The cities in alphabetical order are " +
+//                    city2 + " " + city1);
+//        }
+//
+//    String s = "Pikachu!";
+//    System.out.println(s.charAt(3));
+//    String s2 = "I like to eat cake!";
+//    System.out.println(s2.substring(2,6));
+//    System.out.println(s2.lastIndexOf('a'));
 
-        if(city1.compareTo(city2) < 0) {
-            System.out.println("The cities in alphabetical order are " +
-                    city1 + " " + city2);
-        }else {
-            System.out.println("The cities in alphabetical order are " +
-                    city2 + " " + city1);
+    int a = 7;
+    int b = 3;
+    int c = 12;
+    int d = 4;
+    int e = 94;
+    int f = 22;
+    int g = 34;
+
+    int[] myArray = {a,b,c,d,e,f,g};
+    //System.out.println(myArray[3]);
+    double[] doubleArray = {1.2,3.5,0.1,12.0,92.32,2};
+    //doubleArray[5] = true;
+    //System.out.println(doubleArray);
+//        System.out.println(doubleArray[0]);
+//        System.out.println(doubleArray[1]);
+//        System.out.println(doubleArray[2]);
+//        System.out.println(doubleArray[3]);
+//        System.out.println(doubleArray[4]);
+//        System.out.println(doubleArray[5]);
+        for(int i = 0; i < doubleArray.length; i++){
+            System.out.println(doubleArray[i]);
         }
-
-
+        System.out.println(doubleArray[doubleArray.length-1]);
     }
 }
