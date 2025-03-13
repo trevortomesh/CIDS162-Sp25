@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 17">
+    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -150,7 +150,8 @@
       <workItem from="1741040178437" duration="582000" />
       <workItem from="1741201189390" duration="5110000" />
       <workItem from="1741374765366" duration="4058000" />
-      <workItem from="1741629721595" duration="4180000" />
+      <workItem from="1741629721595" duration="4666000" />
+      <workItem from="1741803050473" duration="1957000" />
     </task>
     <task id="LOCAL-00001" summary="added ch0 and readme">
       <option name="closed" value="true" />
@@ -312,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741382329229</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added lecture 18">
+      <option name="closed" value="true" />
+      <created>1741639254898</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741639254898</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +348,7 @@
     <MESSAGE value="added lecture 15" />
     <MESSAGE value="added lecture 16" />
     <MESSAGE value="added lecture 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lecture 17" />
+    <MESSAGE value="added lecture 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lecture 18" />
   </component>
 </project>
