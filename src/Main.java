@@ -5,7 +5,7 @@
  * @since 2025-02-24
  *
  */
-import java.util.Locale;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -158,13 +158,19 @@ public class Main {
     // declaring and defining simultaneously
     //double[] doubleArray = {1.2,3.5,0.1,12.0,92.32,2};
 
-        double[] myArray; //declare array without defining
-        myArray = new double[6]; //create mailbox and store where it is
-        System.out.println(myArray); //get the address of the mailbox
-        System.out.println(myArray[0]); //get the mail out of the 0th box!
-        System.out.println(myArray[2]);
-        myArray[2] = 7.2;
-        System.out.println(myArray[2]);
+//        double[] myArray; //declare array without defining
+//        myArray = new double[4]; //create array and store where it is
+//        System.out.println(myArray); //get the address of the array
+////        System.out.println(myArray[0]); //get the mail out of the 0th box!
+//        System.out.println(myArray[3]);
+//        myArray[0] = 3.5;
+//        myArray[1] = 2.2;
+//        myArray[2] = 7.2;
+//        myArray[3] = 19.4;
+//        for(int i = 0; i <= myArray.length; i++) {
+//            System.out.println(myArray[i]);
+//        }
+//        System.out.println(myArray[2]);
 
 
 //    System.out.println("doubleArray[0] at " + doubleArray +
@@ -189,5 +195,21 @@ public class Main {
 //            System.out.println(doubleArray[i]);
 //        }
 //        System.out.println(doubleArray[doubleArray.length-1]);
+
+        String[] pokemon = {"Bulbasaur", "Ivysaur", "Venusaur",
+                            "Charmander", "Charmeleon", "Charizard",
+                            "Squirtle", "Wortortle", "Blastoise"};
+
+        String[] type = {"Grass / Poison", "Grass / Poison", "Grass / Poison",
+                        "Fire", "Fire", "Fire / Flying",
+                        "Water", "Water", "Water"};
+
+        System.out.println("Enter a pokedex number: ");
+        Scanner input = new Scanner(System.in);
+        int num = input.nextInt();
+
+        System.out.println("You picked: " + num + ":" + pokemon[num-1]+
+                            " type: " + type[num-1]);
+
     }
 }
