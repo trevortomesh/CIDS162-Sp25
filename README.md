@@ -39,6 +39,7 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 18: Strings and Arrays](textbook/ch4/lecture18.md)
 - [Lecture 19: Arrays Continued](textbook/ch4/lecture19.md)
 - [Lecture 20: Arrays, Reference Variables, and Intro to String Arrays](textbook/ch4/lecture20.md)
+- [Lecture 21: Arrays, the Pokédex Assignment, and Reference Variables](textbook/ch4/lecture21.md)
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)

@@ -196,20 +196,45 @@ public class Main {
 //        }
 //        System.out.println(doubleArray[doubleArray.length-1]);
 
-        String[] pokemon = {"Bulbasaur", "Ivysaur", "Venusaur",
-                            "Charmander", "Charmeleon", "Charizard",
-                            "Squirtle", "Wortortle", "Blastoise"};
+//        String[] pokemon = {"Bulbasaur", "Ivysaur", "Venusaur",
+//                            "Charmander", "Charmeleon", "Charizard",
+//                            "Squirtle", "Wortortle", "Blastoise"};
+//
+//        String[] type = {"Grass / Poison", "Grass / Poison", "Grass / Poison",
+//                        "Fire", "Fire", "Fire / Flying",
+//                        "Water", "Water", "Water"};
+//
+//        System.out.println("Enter a pokedex number: ");
+//        Scanner input = new Scanner(System.in);
+//        int num = input.nextInt();
+//
+//        System.out.println("You picked: " + num + ":" + pokemon[num-1]+
+//                            " type: " + type[num-1]);
 
-        String[] type = {"Grass / Poison", "Grass / Poison", "Grass / Poison",
-                        "Fire", "Fire", "Fire / Flying",
-                        "Water", "Water", "Water"};
+//        double[] myList = new double[10];
+//        System.out.println(myList[0]);
+//        String[] myStrings = new String[10];
+//        System.out.println(myStrings[0]);
+//        char[] myChars = new char[10];
+//        System.out.println(myChars[0]);
+//        boolean[] bools = new boolean[10];
+//        System.out.println(bools[0]);
 
-        System.out.println("Enter a pokedex number: ");
+        double[] myList = new double[10];
         Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
+        System.out.println("Enter " + myList.length + " values: ");
+        for(int i = 0; i < myList.length; i++){
+            myList[i] = input.nextDouble();
+        }
 
-        System.out.println("You picked: " + num + ":" + pokemon[num-1]+
-                            " type: " + type[num-1]);
+        System.out.println(myList);
+
+        System.out.println("You entered: ");
+        for(int i = 0; i < myList.length; i++){
+            System.out.print(myList[i] + " ");
+        }
+
+
 
     }
 }
