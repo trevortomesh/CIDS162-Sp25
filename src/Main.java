@@ -220,21 +220,60 @@ public class Main {
 //        boolean[] bools = new boolean[10];
 //        System.out.println(bools[0]);
 
-        double[] myList = new double[10];
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter " + myList.length + " values: ");
-        for(int i = 0; i < myList.length; i++){
-            myList[i] = input.nextDouble();
+//        double[] myList = new double[10];
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter " + myList.length + " values: ");
+//        for(int i = 0; i < myList.length; i++){
+//            myList[i] = input.nextDouble();
+//        }
+//
+//        System.out.println(myList);
+//
+//        System.out.println("You entered: ");
+//        for(int i = 0; i < myList.length; i++){
+//            System.out.print(myList[i] + " ");
+//        }
+
+//        double[] myList = {1,2,3,4,5,6,7,8,9,10};
+//
+//
+//        for(int i = 0; i < myList.length; i++){
+//            //myList[i] = Math.random() * 100;
+//            myList[i] = 7;
+//        }
+//
+//        System.out.println(myList[4]);
+
+//char[] city = {'R', 'i', 'v', 'e', 'r', ' ', 'F', 'a', 'l', 'l', 's'};
+//        System.out.println(city[3]);
+
+        int[] addArray = {1,2,3,4,5,6,7,8,9,10};
+        int max = addArray[0];
+        int min = addArray[0];
+        int total = 0;
+        for(int i = 0; i < addArray.length; i++){
+            if(addArray[i] > max){
+                max = addArray[i];
+            }
+            if(addArray[i] < min){
+                min = addArray[i];
+            }
+            total += addArray[i];
         }
+        System.out.println(total);
+        System.out.println(max);
+        System.out.println(min);
 
-        System.out.println(myList);
-
-        System.out.println("You entered: ");
-        for(int i = 0; i < myList.length; i++){
-            System.out.print(myList[i] + " ");
+        for(int i = 0; i < addArray.length; i++){
+            int j = (int) (Math.random() * addArray.length);
+            int temp = addArray[i];
+            addArray[i] = addArray[j];
+            addArray[j] = temp;
         }
-
-
+        System.out.println("-------------");
+        for(int i = 0; i < addArray.length; i++){
+            System.out.println(addArray[i]);
+        }
 
     }
 }
