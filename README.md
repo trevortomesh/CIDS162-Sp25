@@ -41,6 +41,7 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 20: Arrays, Reference Variables, and Intro to String Arrays](textbook/ch4/lecture20.md)
 - [Lecture 21: Arrays, the Pokédex Assignment, and Reference Variables](textbook/ch4/lecture21.md)
 - [Lecture 22: Working with arrays](textbook/ch4/lecture22.md)
+- [Lecture 23: Card Shuffler](textbook/ch4/lecture23.md)
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
