@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 22">
-      <change afterPath="$PROJECT_DIR$/src/old-code-3-28.txt" afterDir="false" />
+    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 23">
+      <change afterPath="$PROJECT_DIR$/textbook/appendix/lecture24.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +157,8 @@
       <workItem from="1743012262001" duration="3887000" />
       <workItem from="1743022544918" duration="141000" />
       <workItem from="1743185038181" duration="4779000" />
+      <workItem from="1743196737004" duration="776000" />
+      <workItem from="1743453988137" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="added ch0 and readme">
       <option name="closed" value="true" />
@@ -359,14 +360,21 @@
       <option name="project" value="LOCAL" />
       <updated>1743022650805</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added lecture 23">
+      <option name="closed" value="true" />
+      <created>1743197488810</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1743197488810</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added ch0 and readme" />
     <MESSAGE value="upload lecture 2" />
     <MESSAGE value="uploading Main.java, etc." />
     <MESSAGE value="added lecture3 readme" />
@@ -391,6 +399,7 @@
     <MESSAGE value="added lecture 20" />
     <MESSAGE value="added lecture 21" />
     <MESSAGE value="added lecture 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lecture 22" />
+    <MESSAGE value="added lecture 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lecture 23" />
   </component>
 </project>

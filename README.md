@@ -45,7 +45,7 @@ This repository includes all the course materials organized into chapters and le
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
-
+- [Lecture 24: Midterm Review](textbook/appendix/lecture24.md)
 ---
 
 ## **📂 Repository Contents**
