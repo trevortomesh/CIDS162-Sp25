@@ -8,6 +8,7 @@
 
 import java.util.Scanner;
 public class Main {
+
     public static void main(String[] args) {
 //        int sum = 0;
 //
@@ -60,6 +61,7 @@ public class Main {
     System.out.println("Sum from 1 to 10 is " + sum(1, 10));
     System.out.println("Sum from 20 to 37 is " + sum(20, 37));
     System.out.println("Sum from 35 to 49 is " + sum(35, 49));
+    System.out.println(5);
     int a = sum(24, 42);
     System.out.println(a);
 
@@ -69,6 +71,15 @@ public class Main {
     sayPikachu(100);
     System.out.println(giveMario());
 
+    int pi = (int) giveDouble();
+
+System.out.println(pi);
+
+    double myMax = max(1.2, 3.4);
+    System.out.println(myMax);
+    int myMax2 = max(2,7);
+    System.out.println(myMax2);
+    System.out.println(max(2.7, 3.4, 12.9));
     }
 
     public static int sum(int i1, int i2){
@@ -90,6 +101,23 @@ public class Main {
         return result;
     }
 
+    public static double max(double num1, double num2){
+        if(num1 > num2){
+            return num1;
+        }
+        else{
+            return num2;
+        }
+    }
+
+    public static double max(double num1, double num2, double num3){
+        return max(max(num1, num2), num3);
+    }
+
+    public static double giveDouble(){
+        return 3.14159;
+    }
+
     public static void sayPikachu(int times){
         for(int i = 0; i < times; i++){
             System.out.println("PIKACHUUUUUUU!!!!!");
@@ -100,4 +128,9 @@ public class Main {
         return "It's a me, mario!";
     }
 
+
 }
+
+
+
+
