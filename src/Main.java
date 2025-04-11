@@ -105,17 +105,53 @@ public class Main {
 //        System.out.println(i);
 //        System.out.println(x);*/
 
-        int[] myArray = {36, 32, 19, 19, 19, 18, 21, 20, 19, 19, 19,
-                        20, 18, 19, 51, 20, 20, 20};
+//        int[] myArray = {36, 32, 19, 19, 19, 18, 21, 20, 19, 19, 19,
+//                        20, 18, 19, 51, 20, 20, 20};
+//
+//        //System.out.println(myArray);
+//
+//        printArray(myArray);
+//        System.out.println("-------------------------");
+//        printMultiplyArray(myArray, 5);
+//        System.out.println("-------------------------");
+//        printArray(myArray);
+//
+//        System.out.println("The address in the main method is " + myArray);
 
-        //System.out.println(myArray);
+//        int x = 10;
+//        changeX(x);
+//        System.out.println(x);
 
-        printArray(myArray);
-        System.out.println("-------------------------");
-        printMultiplyArray(myArray, 5);
-        System.out.println("-------------------------");
-        printArray(myArray);
+        int x = 1;
+        int[] numbers = {1,2,3};
+        System.out.println("Before: " + numbers[0]);
+       // System.out.println("Before: " + x);
 
+        System.out.println(numbers);
+        reassignArray(numbers);
+        //changeFirstElement(numbers, x);
+
+        System.out.println("--------------------");
+        System.out.println("After: " + numbers[0]);
+        //System.out.println("After: " + x);
+
+
+    }
+
+    public static void reassignArray(int[] arr){
+        arr = new int[]{9,9,9};
+        System.out.println(arr);
+        arr = new int[]{7,7,7};
+        System.out.println(arr);
+    }
+
+    public static void changeFirstElement(int[] array, int x){
+        array[0] = 14;
+        x = 14;
+    }
+    public static void changeX(int x){
+        x = x + 99;
+        System.out.println(x);
     }
 
     public static void printArray(int[] array){
@@ -129,6 +165,7 @@ public class Main {
             array[i] = array[i] * n;
             System.out.println(array[i]);
         }
+        System.out.println("The address in the method is " + array);
     }
 
     public static void doThing(){
