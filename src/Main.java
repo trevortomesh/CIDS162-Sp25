@@ -122,21 +122,77 @@ public class Main {
 //        changeX(x);
 //        System.out.println(x);
 
-        int x = 1;
-        int[] numbers = {1,2,3};
-        System.out.println("Before: " + numbers[0]);
-       // System.out.println("Before: " + x);
+//        int x = 1;
+//        int[] numbers = {1,2,3};
+//        System.out.println("Before: " + numbers[0]);
+//       // System.out.println("Before: " + x);
+//
+//        System.out.println(numbers);
+//        reassignArray(numbers);
+//        //changeFirstElement(numbers, x);
+//
+//        System.out.println("--------------------");
+//        System.out.println("After: " + numbers[0]);
+//        //System.out.println("After: " + x);
 
-        System.out.println(numbers);
-        reassignArray(numbers);
-        //changeFirstElement(numbers, x);
+//        int[] list1  = {1,2,3,4,5,6};
+//        int[] list2 = reverse(list1);
+//        int[] listNew = gimmieArray();
+//        printArray(listNew);
+//        System.out.println(list2);
+//
+//        printArray(list2);
+//        int[] blankArray = numArray(9,7);
+//        printArray(blankArray);
 
-        System.out.println("--------------------");
-        System.out.println("After: " + numbers[0]);
-        //System.out.println("After: " + x);
+//        int[] myArray =  {1,2,3,4,5};
+//        int[][] my2dArray = {{1},{3,4,5},{5,6}};
+//        System.out.println(my2dArray[1][1]);
+        String[] books = {"The Lord of the Rings", "HG2G",
+                "Art of Computer Programming", "The Bible"};
+
+        String[] games = {"Legend of Zela", "Pokemon", "Minecraft",
+                            "Call of Duty", "Balatro"};
+
+        String[] movies = {"The Lord of the Rings", "HG2G", "The Matrix"};
+
+        String[] guns = {"Walther PDP", "12-Gauge", "AT AR-15", "Taurus Revolver"};
+
+        String[][] electronics = {games,movies};
+        String[][] other = {books, guns};
+        String[][][] collections = {electronics, other};
+
+        System.out.println(collections[0][0][4]);
+
+       // System.out.println(collections[2][2]);
 
 
     }
+
+    public static int[] gimmieArray(){
+        int[] newArray = {1,2,3,4,5,6,12};
+        return newArray;
+    }
+
+    public static int[] numArray(int l, int num){
+        int[] result = new int[l];
+        for(int i = 0; i < l; i++){
+            result[i] = num;
+        }
+        return result;
+    }
+
+    public static int[] reverse(int[] list){
+        int[] result = new int[list.length];
+
+        for(int i = 0, j = result.length - 1;
+            i < list.length; i++, j--) {
+            result[j] = list[i];
+        }
+        System.out.println(result);
+        return result;
+    }
+
 
     public static void reassignArray(int[] arr){
         arr = new int[]{9,9,9};

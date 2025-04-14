@@ -48,6 +48,7 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 26: Methods and Overloading](textbook/ch5/lecture26.md)
 - [Lecture 27: Method Overloading & Variable Scope](textbook/ch5/lecture27.md)
 - [Lecture 28: Arrays and Pass-by-Value vs. Pass-by-Reference](textbook/ch5/lecture28.md)
+- [Lecture 29: Returning Arrays and Multidimensional Arrays](textbook/ch5/lecture29.md)
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
