@@ -9,7 +9,26 @@
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-/*//        int sum = 0;
+
+
+        int[][] matrix = new int[10][10];
+
+        for(int row = 0; row < matrix.length; row++){
+            for(int column = 0; column < matrix[row].length; column++){
+                matrix[row][column] = (int)(Math.random() * 100);
+            }
+        }
+
+        System.out.println("The matrix in the main method is " + matrix);
+        print2DArray(matrix);
+
+
+
+
+
+
+
+        /*//        int sum = 0;
 //
 //        for(int i = 1; i <= 10; i++){
 //            sum += i;
@@ -148,7 +167,7 @@ public class Main {
 //        int[] myArray =  {1,2,3,4,5};
 //        int[][] my2dArray = {{1},{3,4,5},{5,6}};
 //        System.out.println(my2dArray[1][1]);
-        String[] books = {"The Lord of the Rings", "HG2G",
+/*        String[] books = {"The Lord of the Rings", "HG2G",
                 "Art of Computer Programming", "The Bible"};
 
         String[] games = {"Legend of Zela", "Pokemon", "Minecraft",
@@ -158,15 +177,55 @@ public class Main {
 
         String[] guns = {"Walther PDP", "12-Gauge", "AT AR-15", "Taurus Revolver"};
 
+        String[] pens = {"Lammy 2000", "Twisbi", "Lamy Safari"};
+
         String[][] electronics = {games,movies};
-        String[][] other = {books, guns};
+        String[][] other = {books, guns, pens};
         String[][][] collections = {electronics, other};
 
         System.out.println(collections[0][0][4]);
 
+
+        int[][] matrix= {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+        int[][] triangleArray = {
+                {1,2,3,4,5},
+                {2,3,4,5},
+                {3,4,5},
+                {4,5},
+                {5}
+        };
+
+        System.out.println(triangleArray[0].length);
+        System.out.println(triangleArray[1].length);
+
+        int[][] newTriangleArray = new int[5][];
+        newTriangleArray[0] = new int[5];
+        newTriangleArray[1] = new int[4];
+        newTriangleArray[2] = new int[3];
+        newTriangleArray[3] = new int[2];
+        int a = 5;
+        newTriangleArray[4] = new int[1];
+
+        for(int i = 0; i < newTriangleArray.length; i++){
+            System.out.println(newTriangleArray[i]);
+        }*/
+
+
+
        // System.out.println(collections[2][2]);
 
 
+    }
+
+    public static void print2DArray(int[][] matrix){
+        for(int row = 0; row < matrix.length; row++){
+            for(int column = 0; column < matrix[row].length; column++){
+                System.out.print(matrix[row][column] + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("The matrix in the print2darray method is " + matrix);
     }
 
     public static int[] gimmieArray(){
