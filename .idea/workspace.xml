@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 29">
+    <list default="true" id="c92a22c3-0055-4bea-87b3-b7953f189f4b" name="Changes" comment="added lecture 30">
+      <change afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CIDS162-Sp25/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -166,7 +168,8 @@
       <workItem from="1744348071492" duration="347000" />
       <workItem from="1744394194920" duration="5861000" />
       <workItem from="1744653358862" duration="4598000" />
-      <workItem from="1744826270210" duration="2678000" />
+      <workItem from="1744826270210" duration="5023000" />
+      <workItem from="1744999020847" duration="4944000" />
     </task>
     <task id="LOCAL-00001" summary="added ch0 and readme">
       <option name="closed" value="true" />
@@ -424,14 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1744661875622</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="added lecture 30">
+      <option name="closed" value="true" />
+      <created>1744835806590</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1744835806591</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added lecture 5" />
     <MESSAGE value="added lecture 6" />
     <MESSAGE value="added lecture 7" />
     <MESSAGE value="added lecture 8" />
@@ -456,6 +466,7 @@
     <MESSAGE value="added lecture 27" />
     <MESSAGE value="added lecture 28" />
     <MESSAGE value="added lecture 29" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lecture 29" />
+    <MESSAGE value="added lecture 30" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lecture 30" />
   </component>
 </project>

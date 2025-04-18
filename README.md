@@ -50,6 +50,7 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 28: Arrays and Pass-by-Value vs. Pass-by-Reference](textbook/ch5/lecture28.md)
 - [Lecture 29: Returning Arrays and Multidimensional Arrays](textbook/ch5/lecture29.md)
 - [Lecture 30: Multidimensional Arrays (Continued)](textbook/ch5/lecture30.md)
+- [Lecture 31: Command-Line Arguments and Unix Commands in Java](textbook/ch5/lecture31.md)
 ---
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)

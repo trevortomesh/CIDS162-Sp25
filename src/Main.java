@@ -20,7 +20,7 @@ public class Main {
         }
 
         System.out.println("The matrix in the main method is " + matrix);
-        print2DArray(matrix);
+        printArray(matrix);
 
 
 
@@ -217,16 +217,6 @@ public class Main {
 
     }
 
-    public static void print2DArray(int[][] matrix){
-        for(int row = 0; row < matrix.length; row++){
-            for(int column = 0; column < matrix[row].length; column++){
-                System.out.print(matrix[row][column] + " ");
-            }
-            System.out.println();
-        }
-
-        System.out.println("The matrix in the print2darray method is " + matrix);
-    }
 
     public static int[] gimmieArray(){
         int[] newArray = {1,2,3,4,5,6,12};
@@ -273,6 +263,17 @@ public class Main {
         for(int element : array){
             System.out.println(element);
         }
+    }
+
+    public static void printArray(int[][] matrix){
+        for(int row = 0; row < matrix.length; row++){
+            for(int column = 0; column < matrix[row].length; column++){
+                System.out.print(matrix[row][column] + " ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("The matrix in the print2darray method is " + matrix);
     }
 
     public static void printMultiplyArray(int[] array, int n){
