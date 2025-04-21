@@ -52,6 +52,10 @@ This repository includes all the course materials organized into chapters and le
 - [Lecture 30: Multidimensional Arrays (Continued)](textbook/ch5/lecture30.md)
 - [Lecture 31: Command-Line Arguments and Unix Commands in Java](textbook/ch5/lecture31.md)
 ---
+
+### **Chapter 6. File I/O & Exception Handling
+- [Lecture 32: Intro to File I/O & Exception Handling](textbook/ch6/lecture32.md)
+
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)
 - [Lecture 24: Midterm Review](textbook/appendix/lecture24.md)

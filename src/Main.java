@@ -6,22 +6,54 @@
  *
  */
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+
 public class Main {
     public static void main(String[] args) {
 
+    try{
+        File file  = new File("src/example.txt");
+        Scanner scanner = new Scanner(file);
 
-        int[][] matrix = new int[10][10];
-
-        for(int row = 0; row < matrix.length; row++){
-            for(int column = 0; column < matrix[row].length; column++){
-                matrix[row][column] = (int)(Math.random() * 100);
-            }
+        while(scanner.hasNextLine()){
+            String line = scanner.nextLine();
+            System.out.println(line);
         }
+        scanner.close();
+    } catch(FileNotFoundException e){
+        System.out.println("File not found!");
+    }
 
-        System.out.println("The matrix in the main method is " + matrix);
-        printArray(matrix);
+    try(FileWriter writer = new FileWriter("src/output.txt",true)){
+        writer.write("Hello, world!\n");
+        writer.write("Or some crap like that...\n");
 
+    } catch (IOException e) {
+        System.out.println("An error occurred!");
+        System.out.println(e.getMessage());
+    }
+
+    System.out.println("Thanks for programming with us today!");
+
+
+
+//        int[][] matrix = new int[10][10];
+//
+//        for(int row = 0; row < matrix.length; row++){
+//            for(int column = 0; column < matrix[row].length; column++){
+//                matrix[row][column] = (int)(Math.random() * 100);
+//            }
+//        }
+//
+//        System.out.println("The matrix in the main method is " + matrix);
+//        printArray(matrix);
+//
 
 
 
