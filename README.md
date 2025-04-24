@@ -55,6 +55,7 @@ This repository includes all the course materials organized into chapters and le
 
 ### **Chapter 6. File I/O & Exception Handling
 - [Lecture 32: Intro to File I/O & Exception Handling](textbook/ch6/lecture32.md)
+- [Lecture 33: Exception Handling in Java](textbook/ch6/lecture33.md)
 
 ### **Appendix**
 - [Lecture 12: Code Readability & Documentation](textbook/appendix/lecture12.md)

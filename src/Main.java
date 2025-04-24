@@ -8,6 +8,7 @@
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import java.io.FileWriter;
@@ -17,29 +18,59 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
-    try{
-        File file  = new File("src/example.txt");
-        Scanner scanner = new Scanner(file);
+        Scanner input = new Scanner(System.in);
+        boolean continueInput = true;
 
-        while(scanner.hasNextLine()){
-            String line = scanner.nextLine();
-            System.out.println(line);
-        }
-        scanner.close();
-    } catch(FileNotFoundException e){
-        System.out.println("File not found!");
-    }
+        do{
+            try{
+                System.out.println("Enter an integer: ");
+                int number = input.nextInt();
 
-    try(FileWriter writer = new FileWriter("src/output.txt",true)){
-        writer.write("Hello, world!\n");
-        writer.write("Or some crap like that...\n");
+                System.out.println("The number entered is " + number);
 
-    } catch (IOException e) {
-        System.out.println("An error occurred!");
-        System.out.println(e.getMessage());
-    }
+                continueInput = false;
+            }catch(InputMismatchException ex){
+                System.out.println("Try again!");
+                input.nextLine(); // Discard input
+            }
+        }while(continueInput);
 
-    System.out.println("Thanks for programming with us today!");
+//        int number1 = input.nextInt();
+//        int number2 = input.nextInt();
+//
+//        try {
+//            int result = quotient(number1, number2);
+//            System.out.println(number1 + " / " + number2 + " is " + result);
+//        }catch(ArithmeticException ex){
+//            System.out.println(ex.getMessage());
+//        }
+
+        System.out.println("Execution continues...");
+
+
+//    try{
+//        File file  = new File("src/example.txt");
+//        Scanner scanner = new Scanner(file);
+//
+//        while(scanner.hasNextLine()){
+//            String line = scanner.nextLine();
+//            System.out.println(line);
+//        }
+//        scanner.close();
+//    } catch(FileNotFoundException e){
+//        System.out.println("File not found!");
+//    }
+//
+//    try(FileWriter writer = new FileWriter("src/output.txt",true)){
+//        writer.write("Hello, world!\n");
+//        writer.write("Or some crap like that...\n");
+//
+//    } catch (IOException e) {
+//        System.out.println("An error occurred!");
+//        System.out.println(e.getMessage());
+//    }
+//
+//    System.out.println("Thanks for programming with us today!");
 
 
 
@@ -54,11 +85,6 @@ public class Main {
 //        System.out.println("The matrix in the main method is " + matrix);
 //        printArray(matrix);
 //
-
-
-
-
-
 
         /*//        int sum = 0;
 //
@@ -155,7 +181,6 @@ public class Main {
 //        doThing();
 //        System.out.println(i);
 //        System.out.println(x);*/
-
 //        int[] myArray = {36, 32, 19, 19, 19, 18, 21, 20, 19, 19, 19,
 //                        20, 18, 19, 51, 20, 20, 20};
 //
@@ -242,13 +267,16 @@ public class Main {
             System.out.println(newTriangleArray[i]);
         }*/
 
-
-
        // System.out.println(collections[2][2]);
-
 
     }
 
+    public static int quotient(int number1, int number2){
+        if(number2 == 0){
+            throw new ArithmeticException("Divisor cannot be zero!");
+        }
+        return number1 / number2;
+    }
 
     public static int[] gimmieArray(){
         int[] newArray = {1,2,3,4,5,6,12};
