@@ -18,22 +18,55 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        boolean continueInput = true;
+        Scanner scanner = null;
 
-        do{
-            try{
-                System.out.println("Enter an integer: ");
-                int number = input.nextInt();
-
-                System.out.println("The number entered is " + number);
-
-                continueInput = false;
-            }catch(InputMismatchException ex){
-                System.out.println("Try again!");
-                input.nextLine(); // Discard input
+        try{
+            scanner = new Scanner(new File("src/example.txt"));
+            if(scanner.hasNextLine()){
+                String line = scanner.nextLine();
+                System.out.println("First line: " + line);
             }
-        }while(continueInput);
+        }catch(FileNotFoundException e){
+            System.out.println("File not found!");
+        }finally{
+            if (scanner != null){
+                scanner.close();
+                System.out.println("Scanner closed.");
+            }else{
+                System.out.println("Scanner was not opened. No need to close!");
+            }
+        }
+
+//        int a = 10;
+//        int b = 10;
+//
+//        try{
+//            int result = a / b;
+//            System.out.println("Result: " + result);
+//        } catch(ArithmeticException e){
+//            System.out.println("Error: Cannot divide by zero!");
+//        }finally{
+//            System.out.println("This runs no matter what!");
+//        }
+//
+//        System.out.println("Program continues...");
+
+//        Scanner input = new Scanner(System.in);
+//        boolean continueInput = true;
+//
+//        do{
+//            try{
+//                System.out.println("Enter an integer: ");
+//                int number = input.nextInt();
+//
+//                System.out.println("The number entered is " + number);
+//
+//                continueInput = false;
+//            }catch(InputMismatchException ex){
+//                System.out.println("Try again!");
+//                input.nextLine(); // Discard input
+//            }
+//        }while(continueInput);
 
 //        int number1 = input.nextInt();
 //        int number2 = input.nextInt();
@@ -45,7 +78,7 @@ public class Main {
 //            System.out.println(ex.getMessage());
 //        }
 
-        System.out.println("Execution continues...");
+        //  System.out.println("Execution continues...");
 
 
 //    try{
