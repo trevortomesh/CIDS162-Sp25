@@ -6,36 +6,75 @@
  *
  */
 
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import java.io.FileWriter;
-import java.io.IOException;
-
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws java.io.IOException {
 
-        Scanner scanner = null;
+        java.io.File file = new java.io.File("scores.txt");
+        if(file.exists()){
+            System.out.println("File already exists! Reading instead!");
+            Scanner input = new Scanner(file);
+            while(input.hasNext()){
+                String firstName = input.next();
+                String mi = input.next();
+                String lastName = input.next();
+                int score = input.nextInt();
+                System.out.println(firstName + " " + lastName + " " + score);
 
-        try{
-            scanner = new Scanner(new File("src/example.txt"));
-            if(scanner.hasNextLine()){
-                String line = scanner.nextLine();
-                System.out.println("First line: " + line);
             }
-        }catch(FileNotFoundException e){
-            System.out.println("File not found!");
-        }finally{
-            if (scanner != null){
-                scanner.close();
-                System.out.println("Scanner closed.");
-            }else{
-                System.out.println("Scanner was not opened. No need to close!");
+            input.close();
+
+        }else {
+
+            try (java.io.PrintWriter output = new java.io.PrintWriter(file);) {
+
+                output.print("John T. Smith ");
+                output.println(90);
+                output.print("Eric K. Jones ");
+                output.println(85);
+
             }
         }
+
+
+//        PrintWriter output = new PrintWriter(filename);
+//        File file = new File("/Users/trevortomesh/Desktop/School/SP2025/UWRF/CIDS162-Sp25/src/example.txt");
+//        System.out.println("Does it exist? " + file.exists());
+//        System.out.println("The file has " + file.length() + " bytes");
+//        System.out.println("Can it be read? " + file.canRead());
+//        System.out.println("Can it be written? " + file.canWrite());
+//        System.out.println("Can it be executed? " + file.canExecute());
+//        System.out.println("Is it a directory? " + file.isDirectory());
+//        System.out.println("Is it a file? " + file.isFile());
+//        System.out.println("Is path absolute? " + file.isAbsolute());
+//        System.out.println("The absolute filepath is: " +
+//                file.getAbsolutePath());
+//        System.out.println("Last modified on " +
+//                new java.util.Date(file.lastModified()));
+
+
+//        Scanner scanner = null;
+//
+//        try{
+//            scanner = new Scanner(new File("example.txt"));
+//            if(scanner.hasNextLine()){
+//                String line = scanner.nextLine();
+//                System.out.println("First line: " + line);
+//            }
+//        }catch(FileNotFoundException e){
+//            System.out.println("File not found!");
+//        }finally{
+//            if (scanner != null){
+//                scanner.close();
+//                System.out.println("Scanner closed.");
+//            }else{
+//                System.out.println("Scanner was not opened. No need to close!");
+//            }
+
 
 //        int a = 10;
 //        int b = 10;
