@@ -9,37 +9,117 @@
 import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 
 public class Main {
     public static void main(String[] args) throws java.io.IOException {
 
-        java.io.File file = new java.io.File("scores.txt");
-        if(file.exists()){
-            System.out.println("File already exists! Reading instead!");
-            Scanner input = new Scanner(file);
-            while(input.hasNext()){
-                String firstName = input.next();
-                String mi = input.next();
-                String lastName = input.next();
-                int score = input.nextInt();
-                System.out.println(firstName + " " + lastName + " " + score);
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a URL: ");
+        String url = input.nextLine();
+        crawler(url);
 
-            }
-            input.close();
 
-        }else {
+//        System.out.print("Enter a URL: ");
+//        String URLString = new Scanner(System.in).next();
+//
+//        try{
+//            java.net.URL url = new java.net.URL(URLString);
+//            int count = 0;
+//            Scanner input = new Scanner(url.openStream());
+//            while(input.hasNext()){
+//                String line = input.nextLine();
+//                System.out.println(line);
+//                count += line.length();
+//            }
+//            System.out.println("The file size is " + count + " characters");
+//        }catch(java.net.MalformedURLException ex){
+//            System.out.println("Invalid URL");
+//        }catch(java.io.IOException ex){
+//            System.out.println("I/O Errors: no such file");
+//        }
 
-            try (java.io.PrintWriter output = new java.io.PrintWriter(file);) {
+        //Scanner input = new Scanner(new File("test.txt"));
+//        Scanner input = new Scanner("13 14");
+//        int sum = input.nextInt() + input.nextInt();
+//        System.out.println("Sum is " + sum);
+////        int intValue = input.nextInt();
+////        input.nextLine();
+////        String line = input.nextLine();
+////
+////        System.out.println(intValue);
+////        System.out.println(line);
+////        java.io.File file = new java.io.File("scores.txt");
+////        if(file.exists()){
+////            System.out.println("File already exists! Reading instead!");
+////            Scanner input = new Scanner(file);
+////            while(input.hasNext()){
+////                String firstName = input.next();
+////                String mi = input.next();
+////                String lastName = input.next();
+////                int score = input.nextInt();
+////                System.out.println(firstName + " " +
+////                        mi + " " + lastName + " " + score);
+////
+////            }
+////            input.close();
+////
+////        }else {
+////
+////            try (java.io.PrintWriter output = new java.io.PrintWriter(file);) {
+////
+////                output.print("John T. Smith ");
+////                output.println(90);
+////                output.print("Eric K. Jones ");
+////                output.println(85);
+////
+////            }
 
-                output.print("John T. Smith ");
-                output.println(90);
-                output.print("Eric K. Jones ");
-                output.println(85);
+}
 
+    public static void crawler(String startingURL){
+        ArrayList<String> listOfPendingURLs = new ArrayList<>();
+        ArrayList<String> listOfTraversedURLs = new ArrayList<>();
+        listOfPendingURLs.add(startingURL);
+        while(!listOfPendingURLs.isEmpty() &&
+                listOfTraversedURLs.size() <= 100){
+            String urlString = listOfPendingURLs.remove(0);
+            if(!listOfTraversedURLs.contains(urlString)){
+                listOfTraversedURLs.add(urlString);
+                System.out.println("Crawl" + urlString);
+
+                for(String s : getSubURLs(urlString)){
+                    if(!listOfTraversedURLs.contains(s))
+                        listOfPendingURLs.add(s);
+                }
             }
         }
 
+    }
+
+    public static ArrayList<String> getSubURLs(String urlString){
+        ArrayList<String> list = new ArrayList<>();
+        try{
+            java.net.URL url = new java.net.URL(urlString);
+            Scanner input = new Scanner(url.openStream());
+            int current = 0;
+            while(input.hasNext()){
+                String line = input.nextLine();
+                current = line.indexOf("http", current);
+                while(current > 0){
+                    int endIndex = line.indexOf("\"",current);
+                    if(endIndex > 0){
+                        list.add(line.substring(current, endIndex));
+                        current = line.indexOf("http:", endIndex);
+                    }else{current = -1;}
+                }
+            }
+        }catch(Exception ex){
+            System.out.println("Error: " + ex.getMessage());
+        }
+        return list;
+    }
 
 //        PrintWriter output = new PrintWriter(filename);
 //        File file = new File("/Users/trevortomesh/Desktop/School/SP2025/UWRF/CIDS162-Sp25/src/example.txt");
@@ -341,7 +421,7 @@ public class Main {
 
        // System.out.println(collections[2][2]);
 
-    }
+
 
     public static int quotient(int number1, int number2){
         if(number2 == 0){
@@ -467,7 +547,6 @@ public class Main {
     public static String giveMario(){
         return "It's a me, mario!";
     }
-
 
 }
 
